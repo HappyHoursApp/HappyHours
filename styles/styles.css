@@ -1,0 +1,292 @@
+/* body styles */
+#body {
+    background: #fffdf5;
+    font-family: Consolas, Arial, Helvetica, sans-serif;
+}
+
+/* div styles */
+.jumbotron {
+    background-color:transparent !important;
+}
+
+.bio-area {
+    background-color: white;
+    height: 35em;
+}
+
+.input-group {
+    margin-top: 0.5em;
+}
+
+
+
+/* nav styles */
+.hover-link:hover {
+    color: gray;
+    text-decoration: none;
+    border-bottom: 3px solid #188c3c;
+
+}
+
+.about-link:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+.current {
+    border-bottom: 3px solid #188c3c;
+    overflow: hidden;
+}
+
+
+/* heading styles */
+
+.main-link {
+    vertical-align: middle;
+    color: black;
+    font-size: 6em;
+
+}
+
+.about-link {
+    line-height: 6em;
+    color: black;
+    font-size: 1.5em;
+
+}
+h1, a {
+    text-align: center;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.required-help {
+    margin-top: 3em;
+    color: rgba(24, 140, 60, 0.8); /* rgba version of #188c3c with 20% transparency */
+    font-weight: bold;
+    font-family: 'Roboto', Consolas;
+}
+
+.required-help-slim {
+    color: rgba(24, 140, 60, 0.8);
+    font-weight: bold;
+    font-family: 'Roboto', Consolas;
+}
+
+
+/* button styles */
+input[type="submit"] {
+    background-color: #188c3c;
+    color: white;
+    border: none;
+
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(24, 140, 60, 0.8);
+    color: white;
+    border: none;
+
+}
+
+.button {
+    background-color: #188c3c;
+    border: none;
+    border-radius: 5px;
+    pointer-events: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 2px 2px 2px 2px;
+}
+
+/* footer styles */
+footer {
+    margin-top: 10em;
+    text-align: center;
+}
+
+
+
+button {
+    border-style: solid;
+    border-width: 0.5px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    border-color: #188c3c;
+    color: white !important;
+    background-color: #188c3c;
+    margin: 2px 2px 2px 2px;
+    display: inline-block;
+    float: left;
+    width: 8em;
+    text-align: center;
+}
+
+label input {
+    display: none;
+}
+
+label {
+    text-align: center;
+}
+
+.split-top {
+    margin-top: 5em;
+}
+
+.split-top-sm {
+    margin-top: 1em;
+}
+
+.no-pad {
+    padding: 0px 0px 0px 0px !important;
+}
+
+.no-margin {
+    margin: 0px 0px 0px 0px !important;
+}
+
+
+/* Color class's for text */
+.red {
+    color: red;
+}
+
+.orange {
+    color: orange;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: rgb(0, 159, 236);
+}
+
+/* Other text modifications */
+hr {
+    background-color: gray !important;
+    color: gray !important;
+    border: solid 0.5px gray !important;
+    height: 1px !important;
+    width: 100% !important;
+}
+
+
+/* home page profiles page */
+#profiles {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.styled-body {
+    font-size: 1.4em;
+    font-family: Georgia, Consolas;
+}
+
+.indented {
+    text-indent: 3em;
+}
+
+.styled-heading {
+    font-family: 'Roboto', Consolas;
+}
+
+.wrap-text {
+    word-wrap: break-word;
+}
+
+/*
+    form button styles
+ */
+
+
+#checkbox-display label{
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+#checkbox-display label span {
+    border-style: solid;
+    border-width: 0.5px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    border-color: #188c3c;
+    background-color: white;
+    margin: 2px 2px 2px 2px;
+    float: left;
+    width: 8em;
+
+}
+
+#checkbox-display input:checked + span{
+    background-color: #188c3c;
+    color: #ffffff;
+}
+
+#checkbox-display span:hover{
+    background-color: #188c3c;
+    color: #ffffff;
+}
+
+#radio-display label{
+    float: left;
+    display: inline-block;
+}
+
+#radio-display label span {
+    border-style: solid;
+    border-width: 0.5px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    border-color: #188c3c;
+    background-color: white;
+    margin: 2px 2px 2px 2px;
+    float: left;
+    width: 8em;
+    text-align: center;
+}
+
+#radio-display-lg label{
+    display: inline-block;
+    float: left;
+}
+
+#radio-display-lg label span {
+    border-style: solid;
+    border-width: 0.5px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    border-color: #188c3c;
+    background-color: white;
+    margin: 2px 2px 2px 2px;
+    float: left;
+    width: 15em;
+    text-align: center;
+}
+
+#radio-display input:checked + span{
+    background-color: #188c3c;
+    color: #ffffff;
+}
+
+#radio-display-lg input:checked + span{
+    background-color: #188c3c;
+    color: #ffffff;
+}
+
+#radio-display label:hover span{
+    color: white;
+    background-color: #188c3c;
+}
+
+#radio-display-lg label:hover span {
+    color: white;
+    background-color: #188c3c;
+}
